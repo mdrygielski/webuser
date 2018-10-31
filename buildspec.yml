@@ -3,5 +3,12 @@ version: 0.1
 phases:
   install:
     commands:
-    - npm install
-    - npm run deploy
+      - npm install -g serverless
+      - npm install -g yarn
+      - yarn install
+  build:
+    commands:
+      - yarn run build
+  post_build:
+    commands:
+    - aws s3 cp --recursive --acl public-read ./build s3://webuser-prod/
