@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws cp build s3://webuser-prod --recursive",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
