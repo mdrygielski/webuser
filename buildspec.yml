@@ -11,4 +11,4 @@ phases:
       - yarn run build
   post_build:
     commands:
-    - aws s3 cp --recursive --acl public-read ./build s3://webuser-prod/
+    - aws s3 cp --recursive --acl public-read ./build s3://drygielski.com/
