@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,18 +49,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="43" />
+          <entry key="JSON" value="57" />
           <entry key="JavaScript" value="37" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="YAML" value="15" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="37" />
-          <entry key="json" value="43" />
-          <entry key="txt" value="15" />
-          <entry key="yml" value="15" />
+          <entry key="json" value="57" />
+          <entry key="txt" value="17" />
+          <entry key="yml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -90,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -99,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -159,16 +158,6 @@
               <item name="webuser" type="b2602c69:ProjectViewProjectNode" />
               <item name="webuser" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webuser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webuser" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webuser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webuser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540929178182</updated>
       <workItem from="1540929180758" duration="2707000" />
-      <workItem from="1541015821543" duration="5738000" />
+      <workItem from="1541015821543" duration="6382000" />
     </task>
     <task id="LOCAL-00001" summary="AWS init">
       <created>1541019039896</created>
@@ -231,11 +220,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541023774999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AWS init 4">
+      <created>1541024190862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541024190862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="AWS init 4">
+      <created>1541024666463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541024666463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8445000" />
+    <option name="totallyTimeSpent" value="9089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +302,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AWS init" />
     <MESSAGE value="AWS init3" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWS init3" />
+    <MESSAGE value="AWS init 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS init 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
@@ -321,14 +325,14 @@
     <entry file="file://$PROJECT_DIR$/buildspec.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
