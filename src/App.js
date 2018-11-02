@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <p>
             Żono,<br/>
-            Co będzie dzisiaj na kolecje?
+            Co będzie dzisiaj na kolację?
           </p>
         </header>
         <body>
