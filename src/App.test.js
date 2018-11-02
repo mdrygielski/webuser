@@ -7,3 +7,11 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+describe('Welcome page render', function () {
+
+  it("return a value", () => {
+    expect(2+1).toBe(3);
+  });
+
+});
