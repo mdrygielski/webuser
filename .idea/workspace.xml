@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="aws test 2">
+    <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +32,7 @@
           <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,7 +42,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -55,16 +53,16 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="57" />
-          <entry key="JavaScript" value="311" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="JavaScript" value="322" />
+          <entry key="PLAIN_TEXT" value="79" />
           <entry key="YAML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="311" />
+          <entry key="js" value="322" />
           <entry key="json" value="57" />
-          <entry key="txt" value="64" />
+          <entry key="txt" value="79" />
           <entry key="yml" value="84" />
         </counts>
       </usages-collector>
@@ -73,11 +71,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildspec.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -117,11 +124,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/buildspec.yml" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/buildspec.yml" />
       </list>
     </option>
   </component>
@@ -208,7 +215,7 @@
       <workItem from="1540929180758" duration="2707000" />
       <workItem from="1541015821543" duration="8490000" />
       <workItem from="1541076472336" duration="2521000" />
-      <workItem from="1541169290835" duration="3341000" />
+      <workItem from="1541169290835" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="AWS init">
       <created>1541019039896</created>
@@ -273,11 +280,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541030220428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="aws test 2">
+      <created>1541178538819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541178538819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deploy test">
+      <created>1541178693026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541178693026</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17059000" />
+    <option name="totallyTimeSpent" value="17609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,9 +315,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.13965797" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13965797" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49959284" visible="true" weight="0.3295107" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49959284" visible="true" weight="0.3295107" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49959284" weight="0.3295107" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49796417" weight="0.32874617" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50040716" side_tool="true" visible="true" weight="0.3295107" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
@@ -347,7 +369,8 @@
     <MESSAGE value="AWS init 6" />
     <MESSAGE value="rename bucket to drygielski.com" />
     <MESSAGE value="aws test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="aws test 2" />
+    <MESSAGE value="deploy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
@@ -355,13 +378,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buildspec.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,8 +415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
