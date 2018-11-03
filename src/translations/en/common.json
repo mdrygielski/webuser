@@ -1,5 +1,7 @@
 {
+  "test": "simple test",
   "welcome": {
+    "test": "test message",
     "title": "WebUser - usability testing",
     "language": "language"
   }

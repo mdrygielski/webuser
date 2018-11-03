@@ -11,7 +11,7 @@ import common_pl from "./translations/pl/common.json";
 
 i18next.init({
     interpolation: {escapeValue: false},
-    lng: 'en',
+    lng: 'pl',
     resources: {
         en: {common: common_en},
         pl: {common: common_pl},
