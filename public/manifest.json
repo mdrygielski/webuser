@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "WebUser",
+  "name": "Badanie użyteczności wzorców projektowych",
   "icons": [
     {
       "src": "favicon.ico",

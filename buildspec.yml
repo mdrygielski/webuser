@@ -5,6 +5,10 @@ phases:
     commands:
       - npm install -g yarn
       - yarn install
+      - npm install --save i18next
+      - npm install --save react-i18next
+      - npm install @material-ui/core
+      - npm install @material-ui/icons
   build:
     commands:
       - yarn run build
