@@ -56,6 +56,7 @@ class App extends Component {
                 <br/>
                 <img alt={"test"}
                      src={"https://image.shutterstock.com/image-vector/good-job-stampvector-illustration-260nw-773726719.jpg"}/>
+                <br/>
                 <button>Rozpocznij badanie</button>
                 <br/>
                 <Button>test</Button><br/>
