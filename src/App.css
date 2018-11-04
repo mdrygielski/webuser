@@ -7,20 +7,24 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+.flag-select {
+  color: white !important;
+}
+.flag-select .arrow-down {
+  color: white !important;
+}
+
+.flag-select .flag-options {
+  background: #282c34 !important;
+}
+
+.flag-select .flag-option:hover {
+  background: #3f51b5 !important;}
+.flag-select .flag-option:focus {
+  background: #eaeaea !important; }
 
 @keyframes App-logo-spin {
   from {

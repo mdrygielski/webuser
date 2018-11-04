@@ -5,6 +5,8 @@ phases:
     commands:
       - npm install --save i18next
       - npm install --save react-i18next
+      - npm install axios --save
+      - npm install react-flags-select --save
       - npm install @material-ui/core
       - npm install @material-ui/icons
       - npm install -g yarn

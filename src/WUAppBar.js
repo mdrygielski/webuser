@@ -5,10 +5,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Trans } from 'react-i18next';
 import Typography from '@material-ui/core/Typography';
-import FormControl from "@material-ui/core/FormControl/FormControl";
-import InputLabel from "@material-ui/core/InputLabel/InputLabel";
-import NativeSelect from "@material-ui/core/NativeSelect/NativeSelect";
-import Button from '@material-ui/core/Button';
+
+import ReactFlagsSelect from 'react-flags-select';
+import 'react-flags-select/css/react-flags-select.css';
 
 const styles = {
     root: {
@@ -25,38 +24,41 @@ const styles = {
 
 function WUAppBar(props) {
     const {classes} = props;
-    return (
 
+    function onSelectFlag(countryCode)  {
+        if (countryCode === "PL") {
+            props.i18n.changeLanguage("pl");
+        } else {
+            props.i18n.changeLanguage("en");
+        }
+    }
+    if (props.defaultCountryCode !== "") {
+        console.log(props.defaultCountryCode);
+    return (
         <div>
+            Country Code: {props.defaultCountryCode}
             <AppBar>
                 <Toolbar>
-                    {/*/!*{props.t('welcome.title')}*!/*/}
                     <Typography variant="h6" color="inherit" className={classes.grow}>
                         <Trans i18nKey="welcome.title"/>
                     </Typography>
-                    {/*<FormControl>*/}
-                        {/*/!*<InputLabel shrink htmlFor="language-label-placeholder">*!/*/}
-                            {/*/!*{classes.t('welcome.language', {framework: "react-i18next"})}*!/*/}
-                        {/*/!*</InputLabel>*!/*/}
-                        {/*<NativeSelect*/}
-                            {/*name="lang"*/}
-                            {/*value={"1"} >*/}
-                            {/*/!*onChange={(event) =>  classes.changeLanguage(event.target.value)}*!/*/}
-                            {/*/!*input={<Input name="lang" id="language-label-placeholder" />}>*!/*/}
-                            {/*/!*<option value={"en"}>English</option>*!/*/}
-                            {/*/!*<option value={"pl"}>Polski</option>*!/*/}
-
-                        {/*</NativeSelect>*/}
-                    {/*</FormControl>*/}
-                    <Button color="inherit">Login</Button>
+                    <ReactFlagsSelect
+                        onSelect={onSelectFlag}
+                        defaultCountry={props.defaultCountryCode === "PL" ? "PL" : "GB"}
+                        countries={["GB", "PL"]} customLabels={{"GB": "en", "PL":"pl"}}/>
                 </Toolbar>
             </AppBar>
+
         </div>
-    );
+    );}
+    else {
+        return "";
+    }
+
 }
 
-WUAppBar.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
+// WUAppBar.propTypes = {
+//     classes: PropTypes.object.isRequired,
+// };
 
 export default withStyles(styles)(WUAppBar);
