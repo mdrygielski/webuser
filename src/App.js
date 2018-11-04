@@ -58,7 +58,7 @@ class App extends Component {
                     latitude: position.coords.latitude,
                     longitude: position.coords.longitude
                 })
-                axios.get('http://api.geonames.org/countryCodeJSON', {
+                axios.get('https://api.geonames.org/countryCodeJSON', {
                     params: {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude,

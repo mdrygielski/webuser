@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WUAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WUAppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +61,8 @@
           <entry key="CSS" value="89" />
           <entry key="HTML" value="55" />
           <entry key="JSON" value="288" />
-          <entry key="JavaScript" value="7121" />
-          <entry key="PLAIN_TEXT" value="164" />
+          <entry key="JavaScript" value="7131" />
+          <entry key="PLAIN_TEXT" value="273" />
           <entry key="YAML" value="123" />
         </counts>
       </usages-collector>
@@ -77,9 +70,9 @@
         <counts>
           <entry key="css" value="89" />
           <entry key="html" value="55" />
-          <entry key="js" value="7121" />
+          <entry key="js" value="7131" />
           <entry key="json" value="288" />
-          <entry key="txt" value="164" />
+          <entry key="txt" value="273" />
           <entry key="yml" value="123" />
         </counts>
       </usages-collector>
@@ -100,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+            <state relative-caret-position="169">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -281,7 +274,7 @@
       <workItem from="1541015821543" duration="8490000" />
       <workItem from="1541076472336" duration="2521000" />
       <workItem from="1541169290835" duration="20094000" />
-      <workItem from="1541257426364" duration="32896000" />
+      <workItem from="1541257426364" duration="34219000" />
     </task>
     <task id="LOCAL-00001" summary="AWS init">
       <created>1541019039896</created>
@@ -395,11 +388,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541280704183</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="AppBar v0.7&#10;+ language selector added&#10;+ select language base on user's location">
+      <created>1541309139430</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541309139430</updated>
+    </task>
+    <task id="LOCAL-00018" summary="AppBar v0.8&#10;+ set default location to GB">
+      <created>1541310581830</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541310581830</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66708000" />
+    <option name="totallyTimeSpent" value="68031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,10 +423,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13965797" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.13965797" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4963355" visible="true" weight="0.32874617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4963355" visible="true" weight="0.32874617" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5036645" side_tool="true" visible="true" weight="0.32874617" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -477,7 +484,9 @@
     <MESSAGE value="AppBar v.03" />
     <MESSAGE value="AppBar v0.4" />
     <MESSAGE value="AppBar v0.4 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="AppBar v0.4 fix" />
+    <MESSAGE value="AppBar v0.7&#10;+ language selector added&#10;+ select language base on user's location" />
+    <MESSAGE value="AppBar v0.8&#10;+ set default location to GB" />
+    <option name="LAST_COMMIT_MESSAGE" value="AppBar v0.8&#10;+ set default location to GB" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -631,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        <state relative-caret-position="169">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
