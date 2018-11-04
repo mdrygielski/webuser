@@ -1,4 +1,7 @@
 {
+  "general" : {
+    "language": "language"
+  },
   "test": "simple test",
   "welcome": {
     "test": "test message",

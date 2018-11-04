@@ -2,35 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-link {
   color: #61dafb;
 }
-.flag-select {
-  color: white !important;
-}
-.flag-select .arrow-down {
-  color: white !important;
-}
 
-.flag-select .flag-options {
-  background: #282c34 !important;
-}
 
-.flag-select .flag-option:hover {
-  background: #3f51b5 !important;}
-.flag-select .flag-option:focus {
-  background: #eaeaea !important; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
