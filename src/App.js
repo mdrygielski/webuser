@@ -98,6 +98,12 @@ class App extends Component {
 
             });
         }
+        this.setState({
+            language: "en",
+            country: "United Kingdom",
+            countryCode: "GB"
+        })
+        this.props.i18n.changeLanguage("en");
     }
 }
 
