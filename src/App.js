@@ -92,6 +92,7 @@ class App extends Component {
                 return true;
             }
         ).catch((error) => {
+            console.log(error.message);
             return error.message;
         })
     }

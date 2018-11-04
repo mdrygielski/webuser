@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WUAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WUAppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/pl/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl/common.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +63,8 @@
           <entry key="CSS" value="91" />
           <entry key="HTML" value="55" />
           <entry key="JSON" value="328" />
-          <entry key="JavaScript" value="10436" />
-          <entry key="PLAIN_TEXT" value="324" />
+          <entry key="JavaScript" value="10457" />
+          <entry key="PLAIN_TEXT" value="359" />
           <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
@@ -77,9 +72,9 @@
         <counts>
           <entry key="css" value="91" />
           <entry key="html" value="55" />
-          <entry key="js" value="10436" />
+          <entry key="js" value="10457" />
           <entry key="json" value="328" />
-          <entry key="txt" value="324" />
+          <entry key="txt" value="359" />
           <entry key="yml" value="124" />
         </counts>
       </usages-collector>
@@ -100,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+            <state relative-caret-position="557">
+              <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -303,7 +298,7 @@
       <workItem from="1541076472336" duration="2521000" />
       <workItem from="1541169290835" duration="20094000" />
       <workItem from="1541257426364" duration="35660000" />
-      <workItem from="1541354604427" duration="13218000" />
+      <workItem from="1541354604427" duration="13747000" />
     </task>
     <task id="LOCAL-00001" summary="AWS init">
       <created>1541019039896</created>
@@ -438,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541312805831</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="AppBar v0.9&#10;+ language set&#10;+ ipdata information">
+      <created>1541371500181</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1541371500181</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82690000" />
+    <option name="totallyTimeSpent" value="83219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +525,8 @@
     <MESSAGE value="AppBar v0.7&#10;+ language selector added&#10;+ select language base on user's location" />
     <MESSAGE value="AppBar v0.8&#10;+ set default location to GB" />
     <MESSAGE value="AppBar v0.8&#10;+ use https to call geonames api" />
-    <option name="LAST_COMMIT_MESSAGE" value="AppBar v0.8&#10;+ use https to call geonames api" />
+    <MESSAGE value="AppBar v0.9&#10;+ language set&#10;+ ipdata information" />
+    <option name="LAST_COMMIT_MESSAGE" value="AppBar v0.9&#10;+ language set&#10;+ ipdata information" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -711,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+        <state relative-caret-position="557">
+          <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
