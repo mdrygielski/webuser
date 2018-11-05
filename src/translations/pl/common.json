@@ -1,7 +1,16 @@
 {
-  "general" : {
-    "language": "język"
-  },
+  "name": "nazwa",
+  "value": "wartość",
+  "yes": "tak",
+  "no": "nie",
+  "language": "język",
+  "latitude": "szerokość geo",
+  "longitude": "długość geo",
+  "isPrecise": "precyzyjna pozycja?",
+  "isEu": "UE?",
+  "country": "kraj",
+  "continent": "kontynent",
+
   "test": "prosty test",
   "welcome": {
     "test": "testowa wiadomość",

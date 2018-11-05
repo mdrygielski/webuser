@@ -3,9 +3,13 @@ import './App.css';
 import {withNamespaces, Trans} from 'react-i18next';
 import Button from '@material-ui/core/Button'
 import WUAppBar from './WUAppBar';
+import UserDataTable from './UserDataTable';
 import axios from 'axios';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 
 const WUAppBarWrapped = withNamespaces('common')(WUAppBar);
+const UserDataTableWrapped = withNamespaces('common')(UserDataTable);
 
 class App extends Component {
     constructor(props) {
@@ -14,6 +18,7 @@ class App extends Component {
             location: {
                 latitude: "",
                 longitude: "",
+                isExact: false,
                 isEu: "",
                 countryName: "",
                 coutryCode: "",
@@ -48,6 +53,23 @@ class App extends Component {
                 <br/>
                 <br/>
                 <br/>
+                <Grid container>
+                    <Grid item xs={12}>
+                        <Grid container
+                              spacing={16}
+                              direction="row"
+                              justify="flex-start"
+                              alignItems="flex-start">
+                            <Grid key={"loc"}item>
+                                <UserDataTable data={this.state}/>
+                            </Grid>
+                            <Grid key={"content"}item xs={5}>
+                                <Paper>TEST paper</Paper>
+
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
                 <Trans i18nKey="welcome.test">
                     testTrans
                 </Trans>
@@ -68,6 +90,7 @@ class App extends Component {
             </div>
         );
     }
+
 
     getIpData() {
         axios.get("https://api.ipdata.co?api-key=test").then((response) => {
@@ -103,7 +126,8 @@ class App extends Component {
             navigator.geolocation.getCurrentPosition(position => {
                 this.setState({
                     latitude: position.coords.latitude,
-                    longitude: position.coords.longitude
+                    longitude: position.coords.longitude,
+                    isExact: true
                 })
             });
         }

@@ -23,7 +23,6 @@ const styles = {
 class WUAppBar extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
     }
 
     render() {
@@ -36,14 +35,14 @@ class WUAppBar extends React.Component {
                         </Typography>
                         <FormControl >
                             <InputLabel shrink htmlFor="language-label-placeholder">
-                                <Trans i18nKey="general.language" />
+                                <Trans i18nKey="language" />
                             </InputLabel>
                             <NativeSelect
                                 value={this.props.language}
                                 onChange={(e) => {
                                     this.props.onLanguageUpdate(e.target.value)
                                 }}
-                                input={<Input name="age" id="language-label-placeholder" />}
+                                input={<Input name="language" id="language-label-placeholder" />}
                             >
                                 <option value="pl">PL</option>
                                 <option value="en">EN</option>

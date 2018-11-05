@@ -1,7 +1,15 @@
 {
-  "general" : {
-    "language": "language"
-  },
+  "name": "name",
+  "value": "value",
+  "yes": "yes",
+  "no": "no",
+  "language": "language",
+  "latitude": "latitude",
+  "longitude": "longitude",
+  "isPrecise": "precise?",
+  "isEu": "EU?",
+  "country": "country",
+  "continent": "continent",
   "test": "simple test",
   "welcome": {
     "test": "test message",
