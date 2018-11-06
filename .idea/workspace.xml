@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="AWS test">
-      <change afterPath="$PROJECT_DIR$/src/UserDataTable.js" afterDir="false" />
+    <list default="true" id="b5a6516d-8537-492c-830c-dce1c5f5faf6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/WUTestIntro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserDataTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WUUserDataTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WUAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WUAppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/pl/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl/common.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,17 +21,18 @@
     <session id="-132189569">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="WUTestIntro" value="1" />
           <entry key="css" value="4" />
           <entry key="html" value="7" />
           <entry key="ico" value="2" />
@@ -51,7 +50,7 @@
           <entry key="HTML" value="7" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="18" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="5" />
@@ -60,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="7" />
+          <entry key="ESLintLanguageService" value="8" />
           <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
@@ -69,8 +68,8 @@
           <entry key="CSS" value="161" />
           <entry key="HTML" value="55" />
           <entry key="JSON" value="636" />
-          <entry key="JavaScript" value="11410" />
-          <entry key="PLAIN_TEXT" value="395" />
+          <entry key="JavaScript" value="12204" />
+          <entry key="PLAIN_TEXT" value="407" />
           <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
@@ -78,9 +77,9 @@
         <counts>
           <entry key="css" value="161" />
           <entry key="html" value="55" />
-          <entry key="js" value="11410" />
+          <entry key="js" value="12204" />
           <entry key="json" value="636" />
-          <entry key="txt" value="395" />
+          <entry key="txt" value="407" />
           <entry key="yml" value="124" />
         </counts>
       </usages-collector>
@@ -93,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+            <state relative-caret-position="626">
+              <caret line="96" column="66" lean-forward="true" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -111,12 +110,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UserDataTable.js">
+        <entry file="file://$PROJECT_DIR$/src/WUTestIntro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="680">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WUUserDataTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WUAppBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1541539823374" expanded="true" signature="1312:1805" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,20 +159,7 @@
         <entry file="file://$PROJECT_DIR$/src/translations/pl/common.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WUAppBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <marker date="1541449912240" expanded="true" signature="1314:1807" ph="..." />
-              </folding>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -210,9 +221,12 @@
         <option value="$PROJECT_DIR$/buildspec.yml" />
         <option value="$PROJECT_DIR$/src/translations/pl/common.json" />
         <option value="$PROJECT_DIR$/src/translations/en/common.json" />
-        <option value="$PROJECT_DIR$/src/WUAppBar.js" />
         <option value="$PROJECT_DIR$/src/UserDataTable.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/WUTestIntro" />
+        <option value="$PROJECT_DIR$/src/WUAppBar.js" />
+        <option value="$PROJECT_DIR$/src/WUUserDataTable.js" />
+        <option value="$PROJECT_DIR$/src/WUTestIntro.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
@@ -234,10 +248,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="878" />
     <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1456" />
+    <option name="width" value="1852" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,7 +350,8 @@
       <workItem from="1541169290835" duration="20094000" />
       <workItem from="1541257426364" duration="35660000" />
       <workItem from="1541354604427" duration="15068000" />
-      <workItem from="1541444139189" duration="4979000" />
+      <workItem from="1541444139189" duration="5039000" />
+      <workItem from="1541536269207" duration="5983000" />
     </task>
     <task id="LOCAL-00001" summary="AWS init">
       <created>1541019039896</created>
@@ -492,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541372901116</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="data output">
+      <created>1541451097607</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541451097607</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89519000" />
+    <option name="totallyTimeSpent" value="95562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,10 +535,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.10301303" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.07614007" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49552116" visible="true" weight="0.23776758" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5044788" side_tool="true" visible="true" weight="0.23776758" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.495114" visible="true" weight="0.17201835" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.504886" side_tool="true" visible="true" weight="0.17201835" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -580,7 +602,8 @@
     <MESSAGE value="AppBar v0.9&#10;+ language set&#10;+ ipdata information" />
     <MESSAGE value="IpData error message" />
     <MESSAGE value="AWS test" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWS test" />
+    <MESSAGE value="data output" />
+    <option name="LAST_COMMIT_MESSAGE" value="data output" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -721,10 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/pl/common.json">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -735,38 +758,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/translations/pl/common.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WUAppBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1541449912240" expanded="true" signature="1314:1807" ph="..." />
+            <marker date="1541539823374" expanded="true" signature="1312:1805" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserDataTable.js">
+    <entry file="file://$PROJECT_DIR$/src/WUUserDataTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="-54">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/WUTestIntro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="680">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        <state relative-caret-position="626">
+          <caret line="96" column="66" lean-forward="true" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -1,15 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
 import {withNamespaces, Trans} from 'react-i18next';
-import Button from '@material-ui/core/Button'
 import WUAppBar from './WUAppBar';
-import UserDataTable from './UserDataTable';
+import WUUserDataTable from './WUUserDataTable';
 import axios from 'axios';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-
-const WUAppBarWrapped = withNamespaces('common')(WUAppBar);
-const UserDataTableWrapped = withNamespaces('common')(UserDataTable);
+import WUTestIntro from './WUTestIntro';
 
 class App extends Component {
     constructor(props) {
@@ -47,45 +43,20 @@ class App extends Component {
         const {t, i18n} = this.props;
 
         return (
-
-
             <div className="App">
                 <br/>
                 <br/>
                 <br/>
-                <Grid container>
-                    <Grid item xs={12}>
-                        <Grid container
-                              spacing={16}
-                              direction="row"
-                              justify="flex-start"
-                              alignItems="flex-start">
-                            <Grid key={"loc"}item>
-                                <UserDataTable data={this.state}/>
-                            </Grid>
-                            <Grid key={"content"}item xs={5}>
-                                <Paper>TEST paper</Paper>
-
-                            </Grid>
-                        </Grid>
-                    </Grid>
+                <WUAppBar language={this.state.lng} onLanguageUpdate={this.onLanguageUpdate}/>
+                <Grid container
+                      spacing={16}
+                      direction="row"
+                      justify="space-between"
+                      alignItems="flex-start">
+                    <WUTestIntro/>
+                    <WUUserDataTable data={this.state}/>
                 </Grid>
-                <Trans i18nKey="welcome.test">
-                    testTrans
-                </Trans>
-                <WUAppBarWrapped language={this.state.lng} onLanguageUpdate={this.onLanguageUpdate}/>
-                <Trans i18nKey="general.language"/>: {this.state.lng}
-                <br/>
-                <img alt={"test"}
-                     src={"https://image.shutterstock.com/image-vector/good-job-stampvector-illustration-260nw-773726719.jpg"}/>
-                <br/>
-                <button>Rozpocznij badanie</button>
-                <br/>
-                <Button>test</Button><br/>
-                Lat: {this.state.location.latitude}<br/>
-                Lng: {this.state.location.longitude}<br/>
-                language: {this.state.location.language}<br/>
-                Country: {this.state.location.countryName}
+
 
             </div>
         );
@@ -93,7 +64,7 @@ class App extends Component {
 
 
     getIpData() {
-        axios.get("https://api.ipdata.co?api-key=test").then((response) => {
+        axios.get("https://api.ipdata.co?api-key=8c206a3f41fe19087eeaa52f781259c5d441f1a8e911797ecf1f7a51").then((response) => {
                 this.setState({
                         location: {
                             latitude: response.data.latitude,
@@ -116,7 +87,7 @@ class App extends Component {
                 return true;
             }
         ).catch((error) => {
-            console.log(error.message);
+            console.log(error);
             return error.message;
         })
     }
@@ -124,10 +95,13 @@ class App extends Component {
     getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(position => {
+                console.log("geolocation"+position.coords.latitude);
                 this.setState({
-                    latitude: position.coords.latitude,
-                    longitude: position.coords.longitude,
-                    isExact: true
+                    location: {
+                        latitude: position.coords.latitude,
+                        longitude: position.coords.longitude,
+                        isExact: true
+                    }
                 })
             });
         }
